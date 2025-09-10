@@ -1,3 +1,8 @@
+# --- Patch to force a modern sqlite3 version ---
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+# --- End of patch ---
 import sys
 import os
 
@@ -40,4 +45,5 @@ if question:
     st.markdown("### Sources")
     for i, doc in enumerate(retrieved_docs, 1):
         st.write(f"**Source {i}:** {doc.metadata.get('source', 'N/A')}")
+
         st.write(doc.page_content[:200] + "...")
