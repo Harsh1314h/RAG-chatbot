@@ -1,0 +1,5 @@
+Title: Diabetes Mellitus Overview
+
+Diabetes mellitus is a chronic metabolic disorder characterized by high blood glucose levels due to defects in insulin secretion, insulin action, or both. The two main types are Type 1 diabetes, which is an autoimmune destruction of pancreatic beta cells, and Type 2 diabetes, which is primarily due to insulin resistance. Common symptoms include frequent urination, increased thirst, unexplained weight loss, fatigue, and blurred vision. Long-term complications can affect the eyes, kidneys, nerves, and cardiovascular system.
+
+Diagnosis is based on fasting plasma glucose, oral glucose tolerance test, or HbA1c levels. Management includes lifestyle modification, oral hypoglycemic agents, and insulin therapy. Regular monitoring and control of blood pressure, lipids, and blood sugar are essential to prevent complications.

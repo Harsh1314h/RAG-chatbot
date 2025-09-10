@@ -1,0 +1,5 @@
+Title: The Theory of Relativity
+
+The theory of relativity, developed by Albert Einstein, consists of two main parts: special relativity and general relativity. Special relativity introduced the idea that the laws of physics are the same for all non-accelerating observers and that the speed of light in a vacuum is constant, regardless of the motion of the observer or source.
+
+General relativity expanded on this, describing gravity not as a force but as a curvature of spacetime caused by mass and energy. The theory has been confirmed by numerous experiments, including the bending of light by gravity and the precise orbit of Mercury. Relativity has significant implications for modern physics, including the understanding of black holes and the expansion of the universe.
