@@ -2,9 +2,10 @@ torch
 transformers
 sentence-transformers
 streamlit
-chromadb==0.4.15
+chromadb
 python-dotenv
 langchain
 langchain-community
 langchain-huggingface
 langchain-nvidia-ai-endpoints
+pysqlite3-binary
