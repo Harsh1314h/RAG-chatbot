@@ -1,0 +1,17 @@
+Title: Diabetes Mellitus Overview
+
+Diabetes mellitus is a chronic metabolic disorder characterized by high blood glucose levels due to defects in insulin secretion, insulin action, or both. The two main types are Type 1 diabetes, which is an autoimmune destruction of pancreatic beta cells, and Type 2 diabetes, which is primarily due to insulin resistance. Common symptoms include frequent urination, increased thirst, unexplained weight loss, fatigue, and blurred vision. Long-term complications can affect the eyes, kidneys, nerves, and cardiovascular system.
+
+Diagnosis is based on fasting plasma glucose, oral glucose tolerance test, or HbA1c levels. Management includes lifestyle modification, oral hypoglycemic agents, and insulin therapy. Regular monitoring and control of blood pressure, lipids, and blood sugar are essential to prevent complications.
+
+Title: Cardiovascular Disease
+
+Cardiovascular disease (CVD) is a class of diseases that involve the heart or blood vessels. It includes conditions such as coronary artery disease, heart failure, arrhythmias, and stroke. Risk factors include hypertension, high cholesterol, smoking, diabetes, obesity, and a sedentary lifestyle. Prevention involves regular exercise, a healthy diet, not smoking, and managing underlying conditions.
+
+Treatment options range from lifestyle modifications and medications (such as statins, beta-blockers, and anticoagulants) to surgical interventions like coronary artery bypass grafting and angioplasty. Early detection through regular health screenings is crucial.
+
+Title: Mental Health and Depression
+
+Depression is a common and serious mental health disorder that negatively affects how you feel, think, and act. Symptoms include persistent sadness, loss of interest in activities, changes in appetite and sleep, fatigue, difficulty concentrating, feelings of worthlessness, and recurrent thoughts of death or suicide.
+
+Treatment typically involves a combination of psychotherapy (such as cognitive behavioral therapy), antidepressant medications (such as SSRIs), and lifestyle changes. Major depressive disorder is diagnosed when symptoms persist for at least two weeks and represent a change from previous functioning. Early intervention and ongoing support are essential for recovery.
