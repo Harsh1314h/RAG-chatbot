@@ -2,7 +2,7 @@ import os
 os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 
 import streamlit as st
-from src.llm_wrapper import stream_generate
+from src.llm_wrapper import get_active_model, stream_generate
 from src.retrieval import Retriever
 from src.domain_classifier import classify_domain
 from src.config import validate_config
@@ -164,6 +164,12 @@ with st.sidebar:
     - 🌐 **General** — Everything else
     """)
 
+    # Model is resolved against Groq's live model list, so show which one won.
+    try:
+        st.caption(f"🤖 Model: `{get_active_model()}`")
+    except Exception as exc:
+        st.caption(f"🤖 Model unavailable — {exc}")
+
     st.markdown("---")
 
     # Sources panel
@@ -255,11 +261,19 @@ if question := st.chat_input("Ask a question about law, medicine, or academics..
             )
 
         # Step 4: Stream the response
-        response = st.write_stream(stream_generate(prompt))
+        try:
+            response = st.write_stream(stream_generate(prompt))
+        except Exception as exc:
+            st.error(
+                "⚠️ The language model could not complete this request.\n\n"
+                f"`{type(exc).__name__}: {exc}`"
+            )
+            response = None
 
         # Save assistant message
-        st.session_state.messages.append({
-            "role": "assistant",
-            "content": response,
-            "domain": domain,
-        })
+        if response:
+            st.session_state.messages.append({
+                "role": "assistant",
+                "content": response,
+                "domain": domain,
+            })

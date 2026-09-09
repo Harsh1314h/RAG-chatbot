@@ -5,6 +5,7 @@ langchain
 langchain-community
 langchain-huggingface
 langchain-groq
+groq
 langchain-chroma
 langchain-text-splitters
 sentence-transformers
