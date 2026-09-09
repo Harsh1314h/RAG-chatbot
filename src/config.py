@@ -28,6 +28,14 @@ LLM_MODEL_CANDIDATES = [
 LLM_TEMPERATURE = 0.6
 LLM_MAX_TOKENS = 4096
 
+# ── Domain Classification ────────────────────────────────────────────
+# Keyword-based by default, so the detected domain reflects what the corpus
+# actually covers instead of the LLM's world knowledge. Set
+# USE_LLM_DOMAIN_CLASSIFIER=true to hand classification to the LLM instead.
+USE_LLM_DOMAIN_CLASSIFIER = os.getenv(
+    "USE_LLM_DOMAIN_CLASSIFIER", ""
+).strip().lower() in ("1", "true", "yes", "on")
+
 # ── Paths ─────────────────────────────────────────────────────────────
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 CHROMA_DB_DIR = os.path.join(PROJECT_ROOT, "chroma_db")
